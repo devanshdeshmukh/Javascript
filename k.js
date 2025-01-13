@@ -1,16 +1,11 @@
 
-let color = "yellow";
+let person = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 30,
+    fullName: function() {
+        return this.firstName + " " + this.lastName;
+    }
+};
+console.log(person.fullName());
 
-// Traffic light system
-if(color === "red"){
-    console.log("Stop! light color is red");
-}
-else if(color === "yellow"){
-    console.log("Slow down. light color is yellow");
-}
-else if(color === "green"){
-    console.log("Go. light color is green");
-}
-else {
-    console.log("Traffic light is broken");
-}
