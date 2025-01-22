@@ -25,3 +25,9 @@ for (let i = 0; i < arr.length; i++) {
 let array = [1, 2, 3];
 console.log(array.includes(2)); 
 console.log(array.includes(4)); // 
+
+//How do you merge two arrays?
+let arr1 = [1, 2];
+let arr2 = [3, 4];
+let merged = arr1.concat(arr2); // [1, 2, 3, 4]
+
