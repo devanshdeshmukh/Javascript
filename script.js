@@ -1,8 +1,14 @@
-let score = 85;
-if (score >= 90) {
-    console.log("A grade");
-} else if (score >= 80) {
-    console.log("B grade");
-} else {
-    console.log("Needs improvement");
-}
+//Methods = Actions that can be performed on an object.
+
+const calculator = {
+    num: 55,
+    add: function(a, b){
+        return a+b; 
+    },
+    sub: function(a, b){
+        return a-b; 
+    },
+    mul: function(a, b){
+        return a*b; 
+    }
+};
