@@ -17,3 +17,8 @@ function sum(a,b){
     return a+b;
 }
 console.log(sum(3, 5))
+
+function sub(x, y){
+    return x-y;
+}
+console.log(sub(11, 6))
