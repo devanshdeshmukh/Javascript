@@ -22,3 +22,8 @@ function sub(x, y){
     return x-y;
 }
 console.log(sub(11, 6))
+
+function mul(i,j){
+    return i*j;
+}
+console.log(mul(5, 10))
