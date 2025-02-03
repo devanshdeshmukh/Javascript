@@ -36,3 +36,7 @@ const sum = (a,b)=>{
 const cube = (n) =>{
     return n*n*n;
 }
+
+const pow = (a,b) => {
+    return a**b;
+}
