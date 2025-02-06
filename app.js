@@ -30,3 +30,7 @@ const multiply = (a, b) => {
     return a * b;
   };
   console.log(multiply(4, 2)); 
+
+//   Arrow Function with One Parameter (No Parentheses Needed)
+const square = n => n * n;
+console.log(square(4)); 
