@@ -34,3 +34,18 @@ const multiply = (a, b) => {
 //   Arrow Function with One Parameter (No Parentheses Needed)
 const square = n => n * n;
 console.log(square(4)); 
+
+// Unlike normal functions, arrow functions do not have their own this. Instead, they inherit this from their surrounding scope.
+const obj = {
+    name: "JavaScript",
+    regularFunction: function() {
+      console.log("Regular Function:", this.name);
+    },
+    arrowFunction: () => {
+      console.log("Arrow Function:", this.name);
+    }
+  };
+  
+  obj.regularFunction(); // Output: "Regular Function: JavaScript"
+  obj.arrowFunction(); // Output: "Arrow Function: undefined" (inherits this from global scope)
+  
