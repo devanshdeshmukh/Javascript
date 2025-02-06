@@ -21,3 +21,12 @@ if (score >= 50) {
 } else {
     result = "Fail";
 }
+
+const add = (a, b) => a + b;
+console.log(add(5, 3));
+
+//Arrow Function with Block Body
+const multiply = (a, b) => {
+    return a * b;
+  };
+  console.log(multiply(4, 2)); 
