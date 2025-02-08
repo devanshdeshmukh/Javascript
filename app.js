@@ -48,4 +48,16 @@ const obj = {
   
   obj.regularFunction(); // Output: "Regular Function: JavaScript"
   obj.arrowFunction(); // Output: "Arrow Function: undefined" (inherits this from global scope)
-  
+
+  //this comcept 
+  const student = {
+      name: "dev",
+      age: 20,  
+      eng: 94,
+      math: 95,
+      phy: 97,
+      getAvg() {
+        let avg = (this.eng + this.math + this.phy) /3;
+        console.log(`${this.name} got avg marks ${avg}`);
+      }
+  }
