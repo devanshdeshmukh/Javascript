@@ -49,7 +49,7 @@ const obj = {
   obj.regularFunction(); // Output: "Regular Function: JavaScript"
   obj.arrowFunction(); // Output: "Arrow Function: undefined" (inherits this from global scope)
 
-  //this comcept 
+  //this keyword - "This" refers to an object that is executing the current piece  of code
   const student = {
       name: "dev",
       age: 20,  
@@ -61,3 +61,4 @@ const obj = {
         console.log(`${this.name} got avg marks ${avg}`);
       }
   }
+
