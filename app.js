@@ -90,5 +90,7 @@ const obj = {
         console.log("Execution completed.");
     }
 }
-
+// Example usage
+divideNumbers(10, 2);  // Output: Result: 5
+divideNumbers(10, 0);  // Output: Error: Division by zero is not allowed.commit
 
