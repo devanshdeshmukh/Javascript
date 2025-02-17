@@ -45,4 +45,12 @@ function getMin(nums){
 }
 let nums = [10, 20, 30, 40, 5];
 
-//DOM = Data object model
+//Misllenious topics
+//THIS WITH ARROW FUNCTION 
+
+const student = {
+    name: "dev",
+    marks: 87,
+    prop: this,
+};
+ 

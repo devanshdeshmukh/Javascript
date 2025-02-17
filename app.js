@@ -25,15 +25,6 @@ if (score >= 50) {
 const add = (a, b) => a + b;
 console.log(add(5, 3));
 
-//Arrow Function with Block Body
-const multiply = (a, b) => {
-    return a * b;
-  };
-  console.log(multiply(4, 2)); 
-
-//   Arrow Function with One Parameter (No Parentheses Needed)
-const square = n => n * n;
-console.log(square(4)); 
 
 // Unlike normal functions, arrow functions do not have their own this. Instead, they inherit this from their surrounding scope.
 const obj = {
