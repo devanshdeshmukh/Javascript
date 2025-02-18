@@ -52,5 +52,9 @@ const student = {
     name: "dev",
     marks: 87,
     prop: this,
+    getName: function (){
+        console.log(this);
+        return this.name;
+    },
 };
  
