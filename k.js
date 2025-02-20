@@ -59,3 +59,9 @@ let nums = [10, 20, 30, 40, 5];
 // };
  
 // REDUCE METHOD
+let val = [1 ,2, 3, 4];
+let finalVal = val.reduce((res, el) => {
+    console.log(res);
+    return res + el;
+});
+console.log(finalVal);
