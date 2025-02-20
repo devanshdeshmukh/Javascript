@@ -48,13 +48,14 @@ let nums = [10, 20, 30, 40, 5];
 //Misllenious topics
 //THIS WITH ARROW FUNCTION 
 
-const student = {
-    name: "dev",
-    marks: 87,
-    prop: this,
-    getName: function (){
-        console.log(this);
-        return this.name;
-    },
-};
+// const student = {
+//     name: "dev",
+//     marks: 87,
+//     prop: this,
+//     getName: function (){
+//         console.log(this);7
+//         return this.name;
+//     },
+// };
  
+// REDUCE METHOD
