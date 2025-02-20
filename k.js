@@ -28,22 +28,22 @@
 
 //Check if all numbers in our array are multiples of  10 or not.
 
-let nums1 = [10, 20, 30, 40];
+// let nums1 = [10, 20, 30, 40];
 
-let ans = nums1.every((el) => el % 10  == 0);
-console.log(ans);
+// let ans = nums1.every((el) => el % 10  == 0);
+// console.log(ans);
 
-//Create a function to find the min number  in an array.
-function getMin(nums){
-    let min = nums.reduce((min, el) => {
-        if (min<el){
-            return min;
-        }else{
-            return el;
-        }
-    });
-}
-let nums = [10, 20, 30, 40, 5];
+// //Create a function to find the min number  in an array.
+// function getMin(nums){
+//     let min = nums.reduce((min, el) => {
+//         if (min<el){
+//             return min;
+//         }else{
+//             return el;
+//         }
+//     });
+// }
+// let nums = [10, 20, 30, 40, 5];
 
 //Misllenious topics
 //THIS WITH ARROW FUNCTION 
@@ -65,3 +65,9 @@ let finalVal = val.reduce((res, el) => {
     return res + el;
 });
 console.log(finalVal);
+
+//PERACTICE Qs
+//Chack if all if numbers in our array are multiple of 10 or not.
+let nums2 = [10, 20, 30, 40];
+let ans1 = nums2.every((el) => el % 10 == 0);
+console.log(ans1)
