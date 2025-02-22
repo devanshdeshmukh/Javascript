@@ -31,3 +31,9 @@ html,body{
     height: 100px;
     background-color: rgb(82, 136, 82);
 }
+
+.box{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
