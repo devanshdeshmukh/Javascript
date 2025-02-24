@@ -44,6 +44,11 @@ html,body{
     gap: 20px;
 }
 
+.elem h2{
+    font-weight: 500;
+    font-size: 22px;
+}
+
 .box{
     padding: 10px 20px;
     color: rgb(101, 174, 101);
@@ -54,6 +59,9 @@ html,body{
 }
 
 #pbtm{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
     padding: 20px;
     width: 100%;
     height: calc(100% - 100px);
@@ -61,11 +69,17 @@ html,body{
 
 .bubble{
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: center;
     width: 60px;
     height: 60px;
     background-color: rgb(82, 129, 82);
     color: #fff;
     border-radius: 50%;
+    font-weight: 500;
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(61, 88, 61);
 }
