@@ -54,7 +54,18 @@ html,body{
 }
 
 #pbtm{
+    padding: 20px;
     width: 100%;
     height: calc(100% - 100px);
-    
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(82, 129, 82);
+    color: #fff;
+    border-radius: 50%;
 }
