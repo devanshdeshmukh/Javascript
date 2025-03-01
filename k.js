@@ -71,3 +71,4 @@ console.log(finalVal);
 let nums2 = [10, 20, 30, 40];
 let ans1 = nums2.every((el) => el % 10 == 0);
 console.log(ans1)
+let 
